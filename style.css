@@ -1,3 +1,45 @@
 body {
-  background-color: #aaa;
+  margin:0px;
+  background-image: url(back.jpeg);
+  background-size: cover;
+  background-repeat: no repeat;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aqua;
+}
+h1{
+  text-align:center;
+  color: white;
+  background-color:black;
+  padding: 50px;
+  margin:0px;
+}
+footer{
+  background-color: black;
+  color:white;
+  margin:0px;
+  padding: 0px;;
+  text-align: center;
+}
+footer ul{
+  list-style-type: none;
+  padding:0px;
+  margin:0px;
+
+  display: block;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  background-color:gray;
+}
+footer li{
+  text-align: left;
+}
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
 }
